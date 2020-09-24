@@ -3,12 +3,12 @@
 const buttonRight = document.querySelector('.button-right');
 const buttonLeft = document.querySelector('.button-left');
 const block = document.querySelector('.block');
-let buttonCount = 1;
+let buttonCount = 0;
 
 const buttonRightHolder = (evt) => {
 	evt.preventDefault();
-	block.style.transform = `rotate(${90 * buttonCount}deg)`;
 	buttonCount++;
+	block.style.transform = `rotate(${90 * buttonCount}deg)`;
 };
 const buttonLeftHolder = (evt) => {
 	evt.preventDefault();
