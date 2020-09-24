@@ -1,0 +1,22 @@
+.button {
+  padding: 10px 15px;
+
+  width: 150px;
+  height: 50px;
+  left: 484px;
+  top: 364px;
+
+  background: #B67929;
+  border-radius: 58px;
+  border: none;
+
+  font-weight: 900;
+  font-size: 13px;
+  color: $white;
+
+  margin-bottom: 10px;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
